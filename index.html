@@ -4,73 +4,293 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>10월 24일 넷볼 친선경기 · 부평여중 가는 길</title>
 <style>
-:root{--ink:#202637;--muted:#606878;--purple:#6042cf;--lime:#d9f985;--orange:#bd6400;--blue:#244b9b}*{box-sizing:border-box}body{margin:0;background:#f4f3ef;color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.65}button,a,input{touch-action:manipulation}button{font:inherit;cursor:pointer}a{color:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #e47619;outline-offset:4px}.wrap{max-width:1100px;margin:auto;padding:28px 28px 50px}.top{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:13px;letter-spacing:1px;margin-bottom:22px}.top span:last-child{color:var(--muted);font-weight:500}.hero{background:#252139;color:white;border-radius:28px;padding:40px;position:relative;overflow:hidden;display:grid;grid-template-columns:1fr 270px;gap:20px}.eyebrow{color:var(--lime);letter-spacing:3px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.2;letter-spacing:-2px;margin:20px 0}.hero p{color:#dad6e8;margin:0}.date{display:inline-block;background:var(--lime);color:#252139;padding:7px 14px;border-radius:30px;font-weight:800;margin-top:25px}.ticket{border:1px solid #676176;border-radius:20px;padding:26px;align-self:center;z-index:1;background:#302a44}.ticket small{color:#d2cddd}.time{font-size:55px;line-height:1.2;font-weight:900;letter-spacing:-3px}.ticket strong{color:var(--lime)}.court{position:absolute;width:390px;height:390px;border:1px solid #49415f;border-radius:50%;right:-190px;top:-140px}.court:after{content:"";position:absolute;inset:65px;border:1px solid #49415f;border-radius:50%}.intro{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 34px}.chip{background:white;padding:8px 16px;border-radius:30px;font-size:14px}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:30px 0 16px}h2{font-size:25px;letter-spacing:-1px;margin:0}h2 small{font-size:13px;color:var(--purple);letter-spacing:1px;display:block;margin-bottom:3px}.hint{font-size:13px;color:var(--muted)}.panel{background:white;border-radius:24px;padding:28px}.selector{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.selector .label{margin-right:8px;font-weight:700}.station{border:1px solid #dad7e3;background:white;border-radius:12px;padding:10px 22px;font-weight:800}.station[aria-pressed=true]{background:var(--purple);color:white;border-color:var(--purple)}.stage{margin:24px 0 6px;padding:28px 18px 20px;background:#f7f6fb;border-radius:18px}.rail{position:relative;display:grid;grid-template-columns:repeat(4,1fr);padding-top:40px}.rail:before{content:"";height:6px;position:absolute;top:55px;left:12.5%;right:12.5%;background:linear-gradient(to right,#edaa45 0 33.3%,#4769b1 33.3% 66.6%,#a3ab9b 66.6%);border-radius:10px}.stop{text-align:center;position:relative;z-index:1}.dot{width:34px;height:34px;border:7px solid white;background:#c7c4d4;border-radius:50%;display:block;margin:0 auto 12px;box-shadow:0 0 0 1px #dedce6;transition:background .3s,box-shadow .3s}.stop.active .dot{background:var(--purple);box-shadow:0 0 0 5px #e6dfff}.stop strong{font-size:18px}.stop small{display:block;font-size:12px;color:var(--muted)}.train{position:absolute;left:12.5%;top:0;transform:translateX(-50%);transition:left 1.4s ease-in-out;background:var(--purple);color:#fff;border-radius:10px;padding:2px 12px;font-size:23px;z-index:2}.playrow{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:20px;flex-wrap:wrap}.btn{border:0;background:#ece8f8;color:#493599;padding:10px 16px;border-radius:10px;font-size:14px;font-weight:800;text-decoration:none;display:inline-block}.btn.primary{background:var(--purple);color:white}.status{font-size:15px;font-weight:700;min-height:25px}.steps{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:22px}.step{border-top:1px solid #e8e5ed;padding:20px 4px 6px;display:grid;grid-template-columns:35px 1fr;gap:12px}.num{background:#f0ecfa;color:var(--purple);border-radius:50%;height:30px;width:30px;text-align:center;font-weight:800}.step h3{font-size:18px;margin:0 0 6px}.step p{margin:4px 0;color:var(--muted);font-size:14px}.line{font-size:12px;font-weight:800;color:var(--orange)}.blue{color:var(--blue)}.alert{color:#9a3e18!important;font-weight:800}.schedule{display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:#e9eddf;border-radius:20px;padding:25px;margin-top:20px}.schedule>div{padding:0 20px;border-right:1px solid #cbd2bc}.schedule>div:last-child{border:0}.schedule b{font-size:28px;display:block}.schedule p{font-size:13px;margin:2px 0}.twocol{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.checks{margin-top:20px}.check{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-bottom:1px solid #eeecf2;cursor:pointer}.check:last-child{border:0}.check input{width:22px;height:22px;flex-shrink:0;margin-top:4px;accent-color:var(--purple)}.check strong{display:block;font-size:16px}.check small{display:block;color:var(--muted);font-size:13px}.check:has(input:checked) strong{color:#5f7050}.progress{height:7px;border-radius:6px;background:#ece8f3;margin-top:13px;overflow:hidden}.fill{height:100%;width:0;background:var(--purple);transition:width .35s}.count{float:right;font-size:14px;color:var(--purple)}.location{background:#e9e4f6}.location h3{margin:0 0 8px;font-size:22px}.location p{font-size:14px}.location .btn{margin:5px 3px 5px 0}.note{background:#f8f6fc;padding:16px;border-radius:14px;margin-top:20px;font-size:14px}.note b{display:block;margin-bottom:6px}.note ul{padding-left:20px;margin:0}.footer{font-size:12px;color:var(--muted);padding:25px 4px 0}.footer a{margin-right:12px}.footer summary{cursor:pointer;font-weight:bold}.print{background:transparent;border:1px solid #b7b2c4;color:var(--ink)}@media(max-width:700px){.wrap{padding:18px 16px 30px}.hero{grid-template-columns:1fr;padding:27px}.hero h1{font-size:39px}.ticket{display:flex;align-items:center;gap:20px;padding:18px}.time{font-size:43px}.steps,.twocol{grid-template-columns:1fr}.panel{padding:20px}.stage{padding:24px 0 15px}.stop strong{font-size:14px}.stop small{font-size:11px}.train{font-size:20px}.schedule{padding:16px 6px}.schedule>div{padding:0 9px}.schedule b{font-size:23px}.schedule p{font-size:12px}.top{font-size:11px}.sectionhead{align-items:center}.sectionhead .hint{max-width:125px}.rail:before{top:55px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}@media print{body{background:white}.wrap{max-width:none;padding:0}.hero{padding:20px;break-inside:avoid}.hero h1{font-size:32px}.panel{padding:15px;border:1px solid #ddd}.steps{grid-template-columns:1fr 1fr}.twocol{grid-template-columns:1fr 1fr}.selector,.playrow button,.print{display:none}.sectionhead{margin:20px 0 10px}.panel,.schedule,.check{break-inside:avoid}.footer{font-size:10px}a{text-decoration:none}.stage{padding-top:10px}}
+:root{--ink:#1f2433;--muted:#5d6475;--bg:#f4f3ef;--card:#fff;--red:#d1191f;--redbg:#ffecea;--yellow:#ffe45c;--l2:#f08c00;--l2bg:#fff3e0;--l1:#0b4ea2;--l1bg:#e7f0fd;--walk:#2f8a3e;--walkbg:#e7f6e9;--purple:#5b3fd0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-size:17px;line-height:1.6}
+button{font:inherit;cursor:pointer}a{color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #e47619;outline-offset:3px}
+.wrap{max-width:960px;margin:auto;padding:24px 20px 48px}
+section{margin-top:34px}
+h2{font-size:26px;letter-spacing:-1px;margin:0 0 14px;display:flex;align-items:center;gap:10px}
+h2 .no{background:var(--ink);color:#fff;border-radius:50%;width:36px;height:36px;display:inline-grid;place-items:center;font-size:18px;flex-shrink:0}
+.card{background:var(--card);border-radius:22px;padding:24px}
+.hint{font-size:14px;color:var(--muted)}
 
-.mapsection{scroll-margin-top:20px}.mapdest,.previewhead{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.mapdest h3{font-size:29px;margin:3px 0}.mapdest p{margin:0 0 20px}.route-label{display:block;font-weight:800;margin:6px 0 9px}#map-origin{width:100%;font:inherit;font-weight:700;padding:14px;border:2px solid #6042cf;border-radius:12px;background:white;color:var(--ink)}.mapactions{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.mapbutton{display:block;text-decoration:none;border-radius:14px;padding:19px 16px;transition:transform .15s}.mapbutton:hover{transform:translateY(-3px)}.mapbutton b,.mapbutton small{display:block}.mapbutton small{font-size:12px;margin-top:7px}.kakao{background:#fee500;color:#302600}.naver{background:#d8f7e3;color:#135e35}.google{background:#e8effd;color:#234b8d}.routehelp{background:#f2eefb;padding:14px;border-radius:10px;font-weight:700;font-size:14px}.previewhead{margin-top:28px}.previewhead h3{margin:0;font-size:21px}.previewhead button[aria-pressed=true]{background:var(--purple);color:white}#live-map{width:100%;height:450px;border:1px solid #ddd;border-radius:16px;background:#eee}.walkguide{padding:24px;margin-top:24px;background:#eef2e5;border-radius:18px;scroll-margin-top:20px}.walkguide h3{font-size:23px;margin:5px 0 12px}.walkguide ol{padding-left:23px}.walkguide li{margin:8px 0}.walkguide .btn{margin:5px 5px 0 0}@media(max-width:700px){.mapactions{grid-template-columns:1fr}.mapbutton{padding:14px 16px}.mapbutton small{margin-top:3px}#live-map{height:370px}.walkguide{padding:18px}.mapdest h3{font-size:25px}}@media print{#live-map{display:none}.mapactions{grid-template-columns:repeat(3,1fr)}.mapbutton{padding:8px}.previewhead,#preview-note,#walk-select{display:none}}
+/* 중요 표시: 빨강 = 꼭 지켜요, 노랑 형광 = 꼭 확인 */
+.must{color:var(--red);font-weight:900}
+.big{font-size:1.25em}
+.mark{background:linear-gradient(transparent 45%,var(--yellow) 45%);font-weight:900;padding:0 2px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;margin-top:14px}
+.legend span{background:#fff;border-radius:20px;padding:4px 12px}
 
-.important,.alert,.status,.step b,.walkguide b,.checks strong{color:#ba161b!important;font-weight:900!important}.ticket strong{display:inline-block;background:#fff1f0;color:#ba161b;padding:4px 8px;border-radius:6px;font-weight:900}.keyroute{font-size:clamp(18px,2.6vw,27px);line-height:1.6;font-weight:900;color:#ba161b;margin:15px 0}.routechoice{margin-bottom:24px}.routechoice h2{margin-top:8px}.comparison{margin-top:20px;border-top:1px solid #e7e3ed;padding-top:15px}.comparison summary{cursor:pointer;font-weight:800}.tablewrap{overflow-x:auto;margin-top:15px}.tablewrap table{border-collapse:collapse;width:100%;min-width:570px;font-size:14px}.tablewrap caption{text-align:left;font-weight:700;margin-bottom:10px}.tablewrap th,.tablewrap td{padding:13px;text-align:left;vertical-align:top;border-bottom:1px solid #ddd}.tablewrap thead{background:#f1edf8}.tablewrap th:first-child{width:19%}.transfer-list{padding-left:21px;margin:8px 0;font-size:15px}.transfer-list li{margin:9px 0}.askstaff{padding:15px;background:#fff2f1;border-radius:12px;margin:15px 0}.askstaff>b{font-size:13px;color:#6b4243}.askstaff p{font-size:17px;margin-bottom:0}.stop strong{overflow-wrap:anywhere}@media print{.comparison{display:none}}
-.fixed-route{padding:18px;background:#fff1ef;border-radius:14px;margin:8px 0 20px}.fixed-route>strong{display:block;color:#ba161b;font-weight:900;font-size:21px}.fixed-route p{margin:8px 0 0;font-size:14px}</style>
+/* 상단 */
+.hero{background:#252139;color:#fff;border-radius:26px;padding:30px}
+.hero .tag{display:inline-block;background:var(--yellow);color:#252139;font-weight:900;border-radius:20px;padding:4px 14px;font-size:15px}
+.hero h1{font-size:clamp(30px,6vw,48px);line-height:1.25;letter-spacing:-2px;margin:14px 0 6px}
+.hero p{margin:0;color:#d8d4e6}
+.times{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px}
+.t{background:#342e4d;border-radius:16px;padding:14px 12px;text-align:center}
+.t small{display:block;font-size:14px;color:#cfcae0}
+.t b{display:block;font-size:30px;font-weight:900;letter-spacing:-1px}
+.t.key{background:var(--yellow);color:#252139}.t.key small{color:#252139;font-weight:800}.t.key b{font-size:40px}
+.t.end{background:var(--red)}.t.end small{color:#ffe1df;font-weight:800}
+.warn{margin:16px 0 0;background:#3c3557;border-left:6px solid var(--yellow);border-radius:10px;padding:12px 14px;font-size:16px}
+.warn b{color:var(--yellow)}
+
+/* 한눈에 보는 경로 */
+.route{display:grid;grid-template-columns:auto 1fr auto 1fr auto 1fr auto;align-items:center;gap:0;margin:8px 0 4px}
+.st{text-align:center;width:96px}
+.st .ic{width:58px;height:58px;border-radius:50%;margin:0 auto 6px;display:grid;place-items:center;font-size:28px;background:#fff;border:5px solid #c9c6d4;transition:transform .3s,box-shadow .3s}
+.st strong{display:block;font-size:18px;line-height:1.3}
+.st small{display:block;font-size:13px;color:var(--muted)}
+.st.on .ic{transform:scale(1.15);box-shadow:0 0 0 6px #e4dcff;border-color:var(--purple)}
+.st.goal .ic{background:var(--yellow);border-color:var(--red)}
+.seg{height:10px;border-radius:6px;position:relative;margin:0 -6px;top:-24px}
+.seg span{position:absolute;left:50%;transform:translateX(-50%);bottom:14px;white-space:nowrap;font-size:13px;font-weight:900;padding:2px 8px;border-radius:8px}
+.seg.l2{background:var(--l2)}.seg.l2 span{background:var(--l2bg);color:#a85a00}
+.seg.l1{background:var(--l1)}.seg.l1 span{background:var(--l1bg);color:var(--l1)}
+.seg.wk{background:repeating-linear-gradient(90deg,var(--walk) 0 12px,transparent 12px 20px)}.seg.wk span{background:var(--walkbg);color:var(--walk)}
+.playrow{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;background:#f5f3fb;border-radius:14px;padding:12px 14px}
+.status{font-weight:900;font-size:18px;min-height:28px}
+.btn{border:0;background:#ece8f8;color:#40308d;padding:10px 16px;border-radius:10px;font-size:15px;font-weight:800;text-decoration:none;display:inline-block}
+.btn.primary{background:var(--purple);color:#fff}
+
+/* 단계 카드 */
+.steps{display:grid;gap:16px}
+.step{background:#fff;border-radius:22px;padding:22px;border-left:10px solid}
+.step.l2{border-color:var(--l2)}.step.l1{border-color:var(--l1)}.step.wk{border-color:var(--walk)}
+.step header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.step .n{font-size:15px;font-weight:900;color:#fff;border-radius:10px;padding:3px 10px}
+.l2 .n{background:var(--l2)}.l1 .n{background:var(--l1)}.wk .n{background:var(--walk)}
+.step h3{margin:0;font-size:23px;letter-spacing:-.5px}
+.step ul{list-style:none;padding:0;margin:0}
+.step li{padding:7px 0 7px 32px;position:relative}
+.step li:before{content:"✔";position:absolute;left:4px;color:var(--walk);font-weight:900}
+.step li.no:before{content:"✖";color:var(--red)}
+.board{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 4px}
+.sign{border-radius:12px;padding:10px 14px;font-weight:900;font-size:18px;text-align:center;flex:1 1 140px}
+.sign small{display:block;font-size:13px;font-weight:700}
+.sign.ok{background:var(--walkbg);color:var(--walk);border:3px solid var(--walk)}
+.sign.bad{background:var(--redbg);color:var(--red);border:3px solid var(--red)}
+.mini{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:12px 0 4px;font-size:15px}
+.mini i{font-style:normal;background:var(--l1bg);color:var(--l1);border-radius:8px;padding:3px 9px;font-weight:700}
+.mini i.x{background:var(--redbg);color:var(--red);text-decoration:line-through}
+.mini i.goal{background:var(--l1);color:#fff;font-weight:900;font-size:18px}
+.mini em{font-style:normal;color:#9aa0ad}
+.ask{background:#fff7d6;border-radius:14px;padding:14px 16px;margin-top:12px}
+.ask small{font-weight:800;color:#7a6400}
+.ask p{margin:4px 0 0;font-size:19px;font-weight:900}
+
+/* 지도 */
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tab{border:3px solid #ddd9e8;background:#fff;border-radius:14px;padding:10px 8px;font-weight:800;font-size:15px;line-height:1.35}
+.tab[aria-pressed=true]{color:#fff}
+.tab[data-i="0"][aria-pressed=true]{background:var(--l2);border-color:var(--l2)}
+.tab[data-i="1"][aria-pressed=true]{background:var(--l1);border-color:var(--l1)}
+.tab[data-i="2"][aria-pressed=true]{background:var(--walk);border-color:var(--walk)}
+.routehelp{background:#f5f3fb;border-radius:12px;padding:12px 14px;font-weight:700;margin:12px 0}
+.mapactions{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.mapbutton{display:block;text-decoration:none;border-radius:14px;padding:16px;font-weight:900;text-align:center;transition:transform .15s}
+.mapbutton:hover{transform:translateY(-3px)}
+.kakao{background:#fee500;color:#302600}.naver{background:#d8f7e3;color:#135e35}.google{background:#e8effd;color:#234b8d}
+.previewhead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 10px}
+.previewhead h3{margin:0;font-size:19px}
+.previewhead button[aria-pressed=true]{background:var(--purple);color:#fff}
+#live-map{width:100%;height:400px;border:1px solid #ddd;border-radius:16px;background:#eee}
+.addr{display:flex;align-items:center;gap:14px;background:var(--yellow);border-radius:16px;padding:14px 18px;margin-bottom:16px}
+.addr .pin{font-size:34px}
+.addr b{display:block;font-size:22px}
+
+/* 준비물 */
+.twocol{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+.count{float:right;font-weight:900;color:var(--purple)}
+.progress{height:10px;border-radius:6px;background:#ece8f3;margin-top:10px;overflow:hidden}
+.fill{height:100%;width:0;background:var(--purple);transition:width .35s}
+.check{display:flex;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid #eeecf2;cursor:pointer}
+.check:last-child{border:0}
+.check input{width:24px;height:24px;flex-shrink:0;accent-color:var(--purple)}
+.check .e{font-size:30px;width:40px;text-align:center;flex-shrink:0}
+.check strong{display:block;font-size:18px}
+.check small{display:block;color:var(--muted);font-size:14px}
+.check:has(input:checked){opacity:.55}
+.safe ul{list-style:none;padding:0;margin:0}
+.safe li{display:flex;gap:12px;align-items:flex-start;padding:10px 0}
+.safe li span{font-size:28px;line-height:1}
+.safe .sos{background:var(--redbg);border-radius:14px;padding:14px;margin-top:6px}
+
+.footer{font-size:13px;color:var(--muted);padding-top:28px}
+.footer summary{cursor:pointer;font-weight:700}.footer a{margin-right:12px}
+.print{background:transparent;border:1px solid #b7b2c4;color:var(--ink)}
+
+@media(max-width:720px){
+ body{font-size:16px}.wrap{padding:16px 16px 36px}.hero{padding:22px}
+ .times{grid-template-columns:repeat(2,1fr)}.t b{font-size:26px}.t.key b{font-size:34px}
+ .route{grid-template-columns:1fr;justify-items:start;gap:0}
+ .st{display:flex;align-items:center;gap:12px;width:auto;text-align:left}.st .ic{margin:0;width:50px;height:50px;font-size:24px;flex-shrink:0}
+ .seg{width:10px;height:58px;margin:-4px 0 -4px 20px;top:0}
+ .seg span{left:24px;bottom:auto;top:50%;transform:translateY(-50%)}
+ .seg.wk{background:repeating-linear-gradient(180deg,var(--walk) 0 10px,transparent 10px 16px)}
+ .twocol,.mapactions{grid-template-columns:1fr}.tab{font-size:13px;padding:8px 4px}
+ #live-map{height:340px}.step{padding:18px}.step h3{font-size:20px}h2{font-size:22px}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
+@media print{body{background:#fff}.wrap{max-width:none;padding:0}.card,.step{border:1px solid #ddd;break-inside:avoid}#live-map,.previewhead,.playrow button,.print,.tabs,.routehelp{display:none}.mapactions{grid-template-columns:repeat(3,1fr)}.twocol{grid-template-columns:1fr 1fr}}
+</style>
 </head>
 <body><main class="wrap">
-<header class="top"><span>NETBALL / FRIENDLY MATCH</span><span>학생 이동 · 준비 안내</span></header>
-<section class="hero"><div class="court" aria-hidden="true"></div><div><div class="eyebrow">LET’S PLAY TOGETHER</div><h1>부평여중까지<br>이렇게 오세요!</h1><p>부평여중 넷볼부와 함께하는 친선경기</p><div class="date">2026. 10. 24. 토요일</div></div><div class="ticket"><div><small>학교 도착 마감 · 오후</small><div class="time">1:45</div></div><div><strong>13:45까지 도착!</strong><br><small>여유 있게 오후 1시 30분 도착을 목표로</small></div></div></section>
-<div class="intro"><span class="chip">출발 · 완정역</span><span class="chip">환승 1회 · 주안역</span><span class="chip">도착 · 부평여자중학교</span></div>
 
-<section class="routechoice"><div class="panel"><span class="line">중학교 1학년 · 환승과 도보를 함께 고려한 추천</span><h2>오늘은 이 경로 하나만 기억해요</h2><p class="keyroute">완정역 → 주안역 → 부개역 → 부평여중</p><p>두 경로 모두 지하철 환승은 1번입니다. 학교까지 걷는 부담을 줄이기 위해 <strong class="important">주안 환승 → 부개역 하차</strong>를 기본 안내로 정했습니다. 주안에서는 <strong class="important">일반 열차인지 꼭 확인</strong>하세요.</p><details class="comparison"><summary>왜 이 경로인가요? 두 경로 비교 펼치기</summary><div class="tablewrap"><table><caption>학생의 환승 실수와 마지막 도보 부담 비교</caption><thead><tr><th>비교 항목</th><th>주안 → 부개 · 기본 안내</th><th>석남 → 삼산체육관</th></tr></thead><tbody><tr><th>갈아타기</th><td>인천 2호선 → 수도권 1호선<br>1회</td><td>인천 2호선 → 7호선<br>1회</td></tr><tr><th>열차 선택</th><td>부평·부천 방면 <b class="important">일반 열차</b><br>급행을 잘못 타지 않도록 확인 필요</td><td>산곡·부평구청 방면<br>이 구간은 급행 구분 부담이 없음</td></tr><tr><th>환승 통로</th><td>층간 이동이 있어 ‘1호선’ 표지를 따라 이동</td><td>층간 이동이 있어 ‘7호선’ 표지를 따라 이동<br>석남 환승이 무조건 쉬운 것은 아님</td></tr><tr><th>환승 후 하차</th><td>간석 → 동암 → 백운 → 부평 → <b>부개</b><br>5개 역 이동</td><td>산곡 → 부평구청 → 굴포천 → <b>삼산체육관</b><br>4개 역 이동</td></tr><tr><th>학교까지</th><td>부개역에서 도보<br>약 15~20분 예상</td><td>부개역보다 학교까지 도보 구간이 길어짐<br>버스를 이용하면 추가 승하차 안내가 필요</td></tr><tr><th>판단</th><td><b>일반 열차 확인을 확실히 안내하고, 학교까지 도보 부담을 줄이는 선택</b></td><td>급행 구분은 간단하지만, 마지막 도보 부담까지 고려하면 이번 기본 안내로는 선택하지 않음</td></tr></tbody></table></div><p class="hint">추천은 환승 횟수·열차 선택·마지막 도보 부담을 종합한 판단이며 최단시간 비교 결과는 아닙니다. 두 경로의 실시간 소요시간과 삼산체육관역의 정확한 도보 시간은 확인하지 못했습니다. 도보 예상 시간은 신호 대기와 걷는 속도에 따라 달라집니다.</p><p class="hint">환승 구조 참고: <a href="https://www.ictr.or.kr/main/railway/guidance/mobile_ju.jsp" target="_blank" rel="noopener">인천교통공사 주안역 안내</a> · <a href="https://www.ictr.or.kr/main/railway/guidance/mobile_sn.jsp" target="_blank" rel="noopener">석남역 안내</a>. 공사의 교통약자 환승 시간은 엘리베이터 경로 기준이므로 학생의 일반 환승 시간으로 비교하지 않았습니다.</p></details></div></section>
-<section id="maps" class="mapsection"><div class="sectionhead"><h2><small>START HERE / 학교까지 길찾기</small>지도를 열고 학교까지 와요</h2><span class="hint">10월 24일(토) 13:45까지</span></div>
-<div class="panel"><div class="mapdest"><div><span class="line">도착지는 꼭 여기!</span><h3>부평여자중학교</h3><p>인천광역시 부평구 <b>부평문화로 193-1</b></p></div><a class="btn" href="#walkguide">부개역에서 걷는 길 ↓</a></div>
-<div class="fixed-route"><strong>출발: 완정역 → 주안역에서 환승 → 부개역 하차 → 도착: 부평여자중학교</strong><p>아래에서 현재 이동할 구간을 선택한 뒤 원하는 지도를 누르세요.</p><p class="important">주안역에서 인천 2호선 → 수도권 1호선 일반 열차로 갈아타요. 부개역에서는 내려서 걸어요.</p></div><label class="route-label" for="map-origin">지도로 볼 구간</label><select id="map-origin"><option value="0">① 완정역 → 주안역 · 인천 2호선</option><option value="1">② 주안역 → 부개역 · 1호선 일반</option><option value="2">③ 부개역 → 부평여중 · 도보</option></select>
-<div class="mapactions"><a id="kakao-route" class="mapbutton kakao" target="_blank" rel="noopener"><b>카카오맵 길찾기 ↗</b><small>선택한 구간의 출발·도착 자동 입력</small></a><a id="naver-route" class="mapbutton naver" href="https://map.naver.com/p/search/부평여자중학교" target="_blank" rel="noopener"><b>네이버지도 길찾기 ↗</b><small>선택한 구간의 출발·도착 자동 입력</small></a><a id="google-route" class="mapbutton google" target="_blank" rel="noopener"><b>Google 지도 길찾기 ↗</b><small>선택한 구간의 출발·도착 자동 입력</small></a></div>
-<p id="route-help" class="routehelp" aria-live="polite"></p><p class="hint"><b class="important">이 안내문의 기본 경로는 주안역 환승 → 부개역 하차입니다.</b> 지도 앱에서 버스나 급행 환승 경로가 함께 나오더라도 위의 지하철 안내를 따라가세요. 헷갈리면 선생님께 확인하세요. Google 지도에서 국내 도보 경로가 제공되지 않으면 카카오맵·네이버지도를 이용하세요.</p>
-<div class="previewhead"><h3>실제 지도 미리보기</h3><div><button class="btn" id="show-location" aria-pressed="true">학교 위치</button> <button class="btn" id="show-route" aria-pressed="false">선택한 경로</button></div></div><p class="hint" id="preview-note" aria-live="polite">Google 지도에서 학교 위치를 표시합니다. 확대·축소해 주변 길을 확인하세요.</p>
-<iframe id="live-map" title="부평여자중학교 실제 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://maps.google.com/maps?q=부평여자중학교%20인천%20부평문화로%20193-1&amp;z=16&amp;output=embed&amp;hl=ko"></iframe>
-<p class="hint">대중교통 환승역을 한 번에 강제 지정할 수 없어 세 구간으로 나눴습니다. 각 지도는 해당 구간의 경로를 새로 검색하며, 특정 열차까지 고정하지는 않습니다.</p><p class="hint">지도는 인터넷 연결이 필요해요. 미리보기에 경로가 표시되지 않거나 연결이 차단되면 위의 지도 버튼으로 직접 열어 주세요.</p>
-<div id="walkguide" class="walkguide"><span class="line">부개역에 도착했다면</span><h3>이제 학교 정문까지 걸어가요</h3><ol><li><b>2번 출구 쪽(북쪽)</b>으로 나와요.</li><li>상단에서 ③ 구간을 선택해 <b>부개역 → 부평여자중학교</b> 길찾기를 열어요.</li><li>지도에서 <b>도보</b>를 선택하고 횡단보도를 따라 이동해요.</li><li><b>부평문화로 193-1</b>의 학교 정문을 확인하고 도착하면 선생님께 알려요.</li></ol><button class="btn primary" id="walk-select">도보 구간으로 지도 바꾸기 ↑</button><a class="btn" id="walk-kakao" target="_blank" rel="noopener">카카오맵에서 도보 길찾기 열기 ↗</a><p class="hint">네이버지도 확인: 부개역 → 학교 약 790m·12분(2026. 10. 20.). 학생 이동은 15~20분 정도 여유를 두세요. 교내 집결 장소는 선생님 안내를 따라 주세요.</p></div>
-</div></section>
+<header class="hero">
+ <span class="tag">2026. 10. 24. 토요일</span>
+ <h1>넷볼 친선경기 🏐<br>부평여중까지 이렇게 와요!</h1>
+ <p>부평여자중학교 넷볼부와 함께하는 친선경기</p>
+ <div class="times">
+  <div class="t"><small>완정역 도착</small><b>12:20</b></div>
+  <div class="t key"><small>🚆 열차 탑승</small><b>12:30</b></div>
+  <div class="t"><small>학교 도착 목표</small><b>13:30</b></div>
+  <div class="t end"><small>⏰ 도착 마감</small><b>13:45</b></div>
+ </div>
+ <p class="warn"><b>12:30 열차를 놓치면 13:45 마감에 늦을 수 있어요!</b> 10분 일찍 역에 와서 교통카드와 승강장을 확인해요.</p>
+</header>
+<div class="legend"><span><b class="must">빨간 글씨</b> = 꼭 지켜요</span><span><b class="mark">노란 형광</b> = 꼭 확인해요</span></div>
 
-<section><div class="sectionhead"><h2><small>01 / HOW TO GET THERE</small>환승할 때 이 순서대로 따라 해요</h2><span class="hint">지하철 + 도보 경로</span></div><div class="panel">
-<div class="selector"><span class="label">내 출발역</span><button class="station" aria-pressed="true" data-station="완정">완정역</button></div>
-<div class="stage"><div class="rail" aria-label="출발역에서 주안역까지 인천 2호선, 부개역까지 수도권 1호선, 학교까지 도보"><span class="train" aria-hidden="true">🚆</span><div class="stop active"><span class="dot"></span><strong id="origin">완정역</strong><small>인천 2호선 탑승</small></div><div class="stop"><span class="dot"></span><strong>주안역</strong><small>수도권 1호선 환승</small></div><div class="stop"><span class="dot"></span><strong>부개역</strong><small>하차 후 도보</small></div><div class="stop"><span class="dot"></span><strong>부평여중</strong><small>13:45까지 도착</small></div></div><div class="playrow"><span class="status" id="status" aria-live="polite">① 완정역에서 운연 방면으로 타요.</span><div><button class="btn primary" id="play">▶ 경로 애니메이션</button> <button class="btn" id="reset">처음으로</button></div></div></div>
-<div class="steps"><article class="step"><span class="num">1</span><div><span class="line">인천 2호선 · 운연 방면</span><h3><span id="origin2">완정역</span> → 주안역</h3><p>승강장에서 <b class="important">‘운연 방면’</b>을 확인하고 타세요. <b class="important">주안역에서 내립니다.</b></p><p id="stationnote">완정 → 독정 → 검암 → … → 주안</p><p class="important">검암역·석남역에서는 내리지 않아요.</p></div></article>
-<article class="step"><span class="num">2</span><div><span class="line blue">수도권 1호선 · 부평·부천 방면</span><h3>주안역에서 한 번 환승</h3><ol class="transfer-list"><li><b class="important">‘1호선 갈아타는 곳’</b> 표지를 따라가요.</li><li><b class="important">‘부평·부천 방면’</b> 승강장을 찾아요.</li><li>전광판에서 <b class="important">‘일반’ 열차</b>인지 확인해요.</li><li>확신이 없으면 타지 말고 역무원에게 물어봐요.</li></ol><div class="askstaff"><b>헷갈리면 이 문장을 보여주세요</b><p class="important">“부개역에 가려고 해요.<br>부평·부천 방면 일반 열차는 어디에서 타나요?”</p></div><p class="alert">급행은 타지 않아요! 부개역에 정차하지 않아요.</p><p>인천 1호선과 헷갈리지 않도록 확인해요.</p></div></article>
-<article class="step"><span class="num">3</span><div><span class="line blue">일반 열차 · 5개 역 이동</span><h3>주안역 → 부개역</h3><p>주안 → 간석 → 동암 → 백운 → 부평 → <b>부개</b></p><p><b class="important">부평역에서 내리지 않아요. 한 정거장 더 가서 부개역!</b></p></div></article>
-<article class="step"><span class="num">4</span><div><span class="line" style="color:#54703a">마지막 구간 · 도보 약 15~20분 예상</span><h3>부개역 → 부평여자중학교</h3><p>북쪽 출구(2번 출구 쪽)로 나와 지도에서 <b>‘부평여자중학교’</b>를 목적지로 설정하고 도보 길찾기를 따라가세요.</p><p class="important">목적지는 부평여자중학교! 학교에 도착하면 담당 선생님께 알려요.</p></div></article></div>
-<div class="schedule"><div><small>출발역 도착 권장</small><b>11:50</b><p>교통카드·승강장 확인</p></div><div><small>열차 탑승 목표</small><b>12:00</b><p>완정역 출발</p></div><div><small>학교 도착 목표</small><b>13:30</b><p>마감 13:45 전 여유 확보</p></div></div><p class="hint">위 시각은 준비를 위한 권장 계획이며 확정 열차 시간표가 아닙니다. 전체 이동은 대기·환승·도보를 포함해 약 60~80분으로 예상합니다. 당일 지도 앱에서 운행 상황을 확인하고, 더 오래 걸리면 일찍 출발하세요.</p>
-</div></section>
-<div class="twocol"><section><div class="sectionhead"><h2><small>02 / READY TO PLAY</small>출발 전 준비물 체크</h2></div><div class="panel"><b>하나씩 눌러 확인해요</b><span class="count" id="count" aria-live="polite">0 / 4 완료</span><div class="progress"><div class="fill" id="fill"></div></div><div class="checks">
-<label class="check"><input type="checkbox"><span><strong>실내용 운동화</strong><small>없다면 외부 운동화 바닥을 깨끗하게 닦아서 오기</small></span></label>
-<label class="check"><input type="checkbox"><span><strong>머리끈</strong><small>경기할 때 머리를 묶을 수 있도록 준비하기</small></span></label>
-<label class="check"><input type="checkbox"><span><strong>일반 안경 착용 금지</strong><small>시력 교정이 필요하면 스포츠 고글 또는 렌즈 착용하기</small></span></label>
-<label class="check"><input type="checkbox"><span><strong>손톱 정리하기</strong><small>경기 전에 짧고 매끈하게 정리하기</small></span></label>
-</div><p class="hint" id="ready">준비가 끝난 항목에 체크해 주세요.</p></div></section>
-<section><div class="sectionhead"><h2><small>03 / DESTINATION</small>목적지를 확인해요</h2></div><div class="panel location"><h3>부평여자중학교</h3><p>인천광역시 부평구<br><b>부평문화로 193-1</b></p><a class="btn primary" href="https://map.naver.com/p/search/%EB%B6%80%ED%8F%89%EC%97%AC%EC%9E%90%EC%A4%91%ED%95%99%EA%B5%90" target="_blank" rel="noopener">네이버 지도에서 학교 보기 ↗</a><a class="btn" href="https://map.kakao.com/?q=%EB%B6%80%ED%8F%89%EC%97%AC%EC%9E%90%EC%A4%91%ED%95%99%EA%B5%90" target="_blank" rel="noopener">카카오맵에서 보기 ↗</a><p class="hint">상단에서 ③ 부개역 → 부평여중을 선택하면 출발·도착지가 입력된 도보 길찾기를 열 수 있어요. 지도 서비스 이용에는 인터넷이 필요해요.</p><div class="note"><b>이동할 때 이것만 기억!</b><ul><li>교통카드 잔액과 휴대전화 배터리 확인</li><li>횡단보도 신호를 지키고 함께 이동하기</li><li class="important">길을 모르거나 일행과 떨어지면 안전한 곳에 멈춰 선생님께 연락</li></ul></div></div></section></div>
-<footer class="footer"><button class="btn print" onclick="window.print()">안내문 인쇄 / PDF 저장</button><p>2026년 10월 24일(토) 안내 · 13:45는 학교 도착 마감 시각입니다. 교내 집결 장소는 담당 선생님의 안내를 따라 주세요.<br>경로 그림은 이동 순서를 보여주는 개념도이며 실제 거리·이동 속도를 나타내지 않습니다. 체크 상태는 이 페이지를 열어 둔 동안만 유지됩니다.</p><details><summary>경로·주소 확인 자료 및 안내 기준</summary><p>자료 확인: 2026. 10. 19. / 경로 비교 보완: 2026. 10. 20. 학교 주소는 학교 공식 홈페이지, 인천 2호선 역 순서 및 주안 환승은 인천교통공사 자료를 참고했습니다. 도보 시간과 전체 이동 시간은 여유를 둔 예상치이며 실시간 길찾기 결과가 아닙니다. 부개역 출구와 정문까지의 상세 동선은 현장 표지와 지도 앱에서 다시 확인하세요.</p><a href="https://bpgs.icems.kr/" target="_blank" rel="noopener">부평여자중학교 공식 홈페이지</a><a href="https://www.ictr.or.kr/main/railway/intro.jsp" target="_blank" rel="noopener">인천교통공사 노선 운영 정보</a><a href="https://www.ictr.or.kr/main/railway/guidance/mobile_ju.jsp" target="_blank" rel="noopener">주안역 환승 안내</a></details></footer>
-</main><script>
-const stationButtons=[...document.querySelectorAll('[data-station]')],stops=[...document.querySelectorAll('.stop')],train=document.querySelector('.train'),statusText=document.getElementById('status'),play=document.getElementById('play');let origin='완정',step=0,timer=null;
-function messages(){return ['① '+origin+'역에서 운연 방면으로 타요.','② 주안역에서 1호선 일반 열차로 환승해요.','③ 부개역에서 내려 학교까지 걸어가요.','④ 부평여중 도착! 13:45까지 선생님께 알려요.'];}
-function render(){train.style.left=(12.5+step*25)+'%';train.textContent=step>=2?'🚶':'🚆';stops.forEach((s,i)=>s.classList.toggle('active',i===step));statusText.textContent=messages()[step];}
-function pause(){clearInterval(timer);timer=null;play.textContent=step===3?'↻ 다시 재생':'▶ 경로 애니메이션';}
-function reset(){pause();step=0;render();play.textContent='▶ 경로 애니메이션';}
-play.addEventListener('click',()=>{if(timer){pause();return;}if(step===3)step=0;render();play.textContent='Ⅱ 일시정지';timer=setInterval(()=>{step++;render();if(step===3)pause();},3200);});
-document.getElementById('reset').addEventListener('click',reset);
-stationButtons.forEach(b=>b.addEventListener('click',()=>{origin=b.dataset.station;stationButtons.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('origin').textContent=origin+'역';document.getElementById('origin2').textContent=origin+'역';document.getElementById('stationnote').textContent=origin==='완정'?'완정 → 독정 → 검암 → … → 주안':'독정 → 검암 → 검바위 → … → 주안';reset();}));
-const checks=[...document.querySelectorAll('.check input')];checks.forEach(c=>c.addEventListener('change',()=>{const n=checks.filter(x=>x.checked).length;document.getElementById('count').textContent=n+' / 4 완료';document.getElementById('fill').style.width=(n/4*100)+'%';document.getElementById('ready').textContent=n===4?'준비 완료! 즐겁게 경기하고 와요.':'준비가 끝난 항목에 체크해 주세요.';}));
+<section>
+ <h2><span class="no">1</span>한눈에 보는 길</h2>
+ <div class="card">
+  <div class="route" aria-label="완정역에서 인천 2호선, 주안역에서 1호선 환승, 부개역에서 내려 학교까지 도보">
+   <div class="st on"><div class="ic">🚉</div><div><strong>완정역</strong><small>출발</small></div></div>
+   <div class="seg l2"><span>인천 2호선</span></div>
+   <div class="st"><div class="ic">🔁</div><div><strong>주안역</strong><small class="must">갈아타기</small></div></div>
+   <div class="seg l1"><span>1호선 일반</span></div>
+   <div class="st"><div class="ic">🚪</div><div><strong>부개역</strong><small>내려요</small></div></div>
+   <div class="seg wk"><span>걷기 15~20분</span></div>
+   <div class="st goal"><div class="ic">🏫</div><div><strong>부평여중</strong><small class="must">13:45 마감</small></div></div>
+  </div>
+  <div class="playrow"><span class="status" id="status" aria-live="polite"></span><div><button class="btn primary" id="play">▶ 따라가 보기</button> <button class="btn" id="reset">처음으로</button></div></div>
+ </div>
+</section>
 
+<section>
+ <h2><span class="no">2</span>순서대로 따라 해요</h2>
+ <div class="steps">
+  <article class="step l2">
+   <header><span class="n">STEP 1</span><h3>🚉 완정역 → 주안역</h3></header>
+   <ul>
+    <li>인천 2호선 <span class="mark big">‘운연 방면’</span> 열차를 타요.</li>
+    <li>13개 역을 지나 <b class="must big">주안역에서 내려요.</b></li>
+    <li class="no">검암역 · 석남역에서는 내리지 않아요.</li>
+   </ul>
+  </article>
 
-const mapOrigin=document.getElementById('map-origin'),destination='부평여자중학교 인천광역시 부평구 부평문화로 193-1';let previewRoute=false;
+  <article class="step l1">
+   <header><span class="n">STEP 2</span><h3>🔁 주안역에서 1호선으로 갈아타기</h3></header>
+   <ul>
+    <li><span class="mark">‘1호선 갈아타는 곳’</span> 표지를 따라가요.</li>
+    <li><span class="mark">‘부평 · 부천 방면’</span> 승강장으로 가요.</li>
+    <li>전광판에서 열차 종류를 꼭 확인해요.</li>
+   </ul>
+   <div class="board">
+    <div class="sign ok">⭕ 일반 열차<small>타요!</small></div>
+    <div class="sign bad">❌ 급행 열차<small>부개역에 안 서요!</small></div>
+   </div>
+   <div class="ask"><small>🙋 헷갈리면 역무원에게 이렇게 물어봐요</small><p>“부개역에 가려고 해요. 부평·부천 방면 일반 열차는 어디서 타나요?”</p></div>
+  </article>
+
+  <article class="step l1">
+   <header><span class="n">STEP 3</span><h3>🚆 주안역 → 부개역 (5개 역)</h3></header>
+   <div class="mini"><i>주안</i><em>→</em><i>간석</i><em>→</em><i>동암</i><em>→</em><i>백운</i><em>→</em><i class="x">부평</i><em>→</em><i class="goal">부개 🚪</i></div>
+   <p class="must big" style="margin:8px 0 0">부평역에서 내리지 않아요! 한 정거장 더 가서 부개역!</p>
+  </article>
+
+  <article class="step wk">
+   <header><span class="n">STEP 4</span><h3>🚶 부개역 → 부평여자중학교</h3></header>
+   <ul>
+    <li><span class="mark">2번 출구 쪽(북쪽)</span>으로 나와요.</li>
+    <li>지도 앱에서 <b>도보</b> 길찾기를 켜고 걸어요. <span class="hint">(약 790m · 15~20분)</span></li>
+    <li>도착하면 <b class="must">담당 선생님께 바로 알려요.</b></li>
+   </ul>
+  </article>
+ </div>
+</section>
+
+<section id="maps">
+ <h2><span class="no">3</span>지도로 길찾기</h2>
+ <div class="card">
+  <div class="addr"><span class="pin">📍</span><div><small>도착지</small><b>부평여자중학교</b>인천 부평구 부평문화로 193-1</div></div>
+  <p style="margin:0 0 10px;font-weight:800">지금 가는 구간을 누르세요 👇</p>
+  <div class="tabs" role="group" aria-label="지도로 볼 구간">
+   <button class="tab" data-i="0" aria-pressed="true">① 완정 → 주안<br><small>인천 2호선</small></button>
+   <button class="tab" data-i="1" aria-pressed="false">② 주안 → 부개<br><small>1호선 일반</small></button>
+   <button class="tab" data-i="2" aria-pressed="false">③ 부개 → 학교<br><small>걷기</small></button>
+  </div>
+  <p id="route-help" class="routehelp" aria-live="polite"></p>
+  <div class="mapactions">
+   <a id="kakao-route" class="mapbutton kakao" target="_blank" rel="noopener">카카오맵 ↗</a>
+   <a id="naver-route" class="mapbutton naver" target="_blank" rel="noopener">네이버지도 ↗</a>
+   <a id="google-route" class="mapbutton google" target="_blank" rel="noopener">Google 지도 ↗</a>
+  </div>
+  <p class="hint">지도 앱이 버스·급행 경로를 보여줘도 <b class="must">이 안내의 지하철 경로</b>를 따라가요.</p>
+  <div class="previewhead"><h3>🗺️ 지도 미리보기</h3><div><button class="btn" id="show-location" aria-pressed="true">학교 위치</button> <button class="btn" id="show-route" aria-pressed="false">선택한 구간</button></div></div>
+  <iframe id="live-map" title="부평여자중학교 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+ </div>
+</section>
+
+<div class="twocol">
+ <section>
+  <h2><span class="no">4</span>준비물 체크</h2>
+  <div class="card">
+   <b>하나씩 눌러 확인해요</b><span class="count" id="count" aria-live="polite">0 / 4</span>
+   <div class="progress"><div class="fill" id="fill"></div></div>
+   <label class="check"><input type="checkbox"><span class="e">👟</span><span><strong>실내용 운동화</strong><small>없으면 운동화 바닥을 깨끗이 닦아 오기</small></span></label>
+   <label class="check"><input type="checkbox"><span class="e">🎀</span><span><strong>머리끈</strong><small>경기할 때 머리 묶기</small></span></label>
+   <label class="check"><input type="checkbox"><span class="e">👓</span><span><strong class="must">일반 안경 착용 금지</strong><small>스포츠 고글 또는 렌즈 착용</small></span></label>
+   <label class="check"><input type="checkbox"><span class="e">💅</span><span><strong>손톱 짧게 정리</strong><small>짧고 매끈하게</small></span></label>
+   <p class="hint" id="ready">준비가 끝난 항목에 체크해 주세요.</p>
+  </div>
+ </section>
+ <section class="safe">
+  <h2><span class="no">5</span>안전 약속</h2>
+  <div class="card">
+   <ul>
+    <li><span>💳</span><div>교통카드 잔액 · 휴대전화 배터리 확인</div></li>
+    <li><span>🚦</span><div>횡단보도 신호 지키고 함께 이동</div></li>
+   </ul>
+   <div class="sos"><b class="must big">🆘 길을 잃거나 일행과 떨어지면</b><br>안전한 곳에 멈춰서 <b class="must">선생님께 바로 연락!</b></div>
+  </div>
+ </section>
+</div>
+
+<footer class="footer">
+ <button class="btn print" onclick="window.print()">🖨️ 인쇄 / PDF 저장</button>
+ <p>시각은 권장 계획이며 확정 열차 시간표가 아닙니다. 당일 지도 앱에서 운행 상황을 확인하세요. 교내 집결 장소는 담당 선생님 안내를 따라 주세요.</p>
+ <details><summary>확인 자료</summary><p>학교 주소: 학교 공식 홈페이지 / 인천 2호선 역 순서·주안 환승: 인천교통공사 자료(2026. 10. 19. 확인) / 부개역 → 학교 도보: 네이버지도 약 790m·12분(2026. 10. 20. 확인), 학생 이동은 15~20분으로 여유를 둠.</p><a href="https://bpgs.icems.kr/" target="_blank" rel="noopener">부평여자중학교 홈페이지</a><a href="https://www.ictr.or.kr/main/railway/guidance/mobile_ju.jsp" target="_blank" rel="noopener">주안역 환승 안내</a></details>
+</footer>
+</main>
+<script>
+// 경로 따라가기
+const stops=[...document.querySelectorAll('.st')],statusText=document.getElementById('status'),play=document.getElementById('play');let step=0,timer=null;
+const msgs=['① 완정역에서 운연 방면 열차를 타요.','② 주안역에서 1호선 일반 열차로 갈아타요.','③ 부개역에서 내려 2번 출구로 나가요.','④ 부평여중 도착! 선생님께 알려요.'];
+function render(){stops.forEach((s,i)=>s.classList.toggle('on',i===step));statusText.textContent=msgs[step];}
+function pause(){clearInterval(timer);timer=null;play.textContent=step===3?'↻ 다시 보기':'▶ 따라가 보기';}
+play.addEventListener('click',()=>{if(timer){pause();return;}if(step===3)step=0;render();play.textContent='Ⅱ 멈춤';timer=setInterval(()=>{step++;render();if(step===3)pause();},2500);});
+document.getElementById('reset').addEventListener('click',()=>{pause();step=0;render();play.textContent='▶ 따라가 보기';});
+render();
+
+// 준비물
+const checks=[...document.querySelectorAll('.check input')];checks.forEach(c=>c.addEventListener('change',()=>{const n=checks.filter(x=>x.checked).length;document.getElementById('count').textContent=n+' / 4';document.getElementById('fill').style.width=(n/4*100)+'%';document.getElementById('ready').textContent=n===4?'준비 완료! 즐겁게 경기하고 와요. 🎉':'준비가 끝난 항목에 체크해 주세요.';}));
+
+// 지도
+const destination='부평여자중학교 인천광역시 부평구 부평문화로 193-1';let leg=0,previewRoute=false;
 const legs=[
-{start:'인천 완정역',end:'인천 주안역',label:'① 완정역 → 주안역',mode:'transit',instruction:'인천 2호선 운연 방면 · 주안역까지 그대로 타세요. 버스 경로를 선택하지 마세요.'},
-{start:'인천 주안역',end:'인천 부개역',label:'② 주안역 → 부개역',mode:'transit',instruction:'1호선 간석·부평·부천 방면 일반 열차 · 부개역까지 환승 없음! 급행 또는 추가 환승 경로는 선택하지 마세요.'},
-{start:'인천 부개역',end:destination,label:'③ 부개역 → 부평여중',mode:'walking',instruction:'부개역 2번 출구 쪽으로 나와 도보 이동 · 부평문화로 193-1 학교 정문을 확인하세요.'}
+{start:'인천 완정역',end:'인천 주안역',label:'① 완정역 → 주안역',mode:'transit',instruction:'인천 2호선 운연 방면 · 주안역까지 그대로 타요.'},
+{start:'인천 주안역',end:'인천 부개역',label:'② 주안역 → 부개역',mode:'transit',instruction:'1호선 부평·부천 방면 일반 열차 · 급행 경로는 고르지 마요.'},
+{start:'인천 부개역',end:destination,label:'③ 부개역 → 부평여중',mode:'walking',instruction:'2번 출구 쪽으로 나와 걸어요 · 부평문화로 193-1 정문 확인.'}
 ];
 const naverLegs=["https://map.naver.com/p/directions/3z4RMk,2AN9zP,%EC%99%84%EC%A0%95%EC%97%AD%20%EC%9D%B8%EC%B2%9C2%ED%98%B8%EC%84%A0,20214,SUBWAY_STATION/3z5acX,2AHN2R,%EC%A3%BC%EC%95%88%EC%97%AD%201%ED%98%B8%EC%84%A0,156,SUBWAY_STATION/-/transit?c=11.00,0,0,0,dh","https://map.naver.com/p/directions/3z5acX,2AHN2R,%EC%A3%BC%EC%95%88%EC%97%AD%201%ED%98%B8%EC%84%A0,156,SUBWAY_STATION/3z7HPZ,2AIM0D,%EB%B6%80%EA%B0%9C%EC%97%AD%201%ED%98%B8%EC%84%A0,151,SUBWAY_STATION/-/transit?c=16.00,0,0,0,dh","https://map.naver.com/p/directions/3z7HPZ,2AIM0D,%EB%B6%80%EA%B0%9C%EC%97%AD%201%ED%98%B8%EC%84%A0,151,SUBWAY_STATION/3z7DzT,2AJ3NM,%EB%B6%80%ED%8F%89%EC%97%AC%EC%9E%90%EC%A4%91%ED%95%99%EA%B5%90,12360649,PLACE_POI/-/walk?c=18.00,0,0,0,dh"];
-function selectedLeg(){return legs[Number(mapOrigin.value)];}
-function kakaoRoute(leg){return 'https://map.kakao.com/?'+new URLSearchParams({sName:leg.start,eName:leg.end,target:leg.mode==='walking'?'walk':'transit'});}
-function updateMaps(){const i=Number(mapOrigin.value),leg=legs[i];document.getElementById('kakao-route').href=kakaoRoute(leg);document.getElementById('naver-route').href=naverLegs[i];document.getElementById('google-route').href='https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',origin:leg.start,destination:leg.end,travelmode:leg.mode});document.getElementById('walk-kakao').href=kakaoRoute(legs[2]);document.getElementById('route-help').textContent=leg.label+' | '+leg.instruction;if(previewRoute)updatePreview();}
-function updatePreview(){const leg=selectedLeg();document.getElementById('show-location').setAttribute('aria-pressed',String(!previewRoute));document.getElementById('show-route').setAttribute('aria-pressed',String(previewRoute));document.getElementById('live-map').src='https://maps.google.com/maps?'+new URLSearchParams(previewRoute?{saddr:leg.start,daddr:leg.end,dirflg:leg.mode==='walking'?'w':'r',output:'embed',hl:'ko'}:{q:destination,z:'16',output:'embed',hl:'ko'});document.getElementById('preview-note').textContent=previewRoute?leg.label+' 경로 미리보기 · 표시되지 않으면 위의 지도 버튼을 이용하세요.':'Google 지도에서 학교 위치를 표시합니다. 확대·축소해 주변 길을 확인하세요.';}
-mapOrigin.addEventListener('change',updateMaps);
+const tabs=[...document.querySelectorAll('.tab')];
+function updateMaps(){const l=legs[leg];tabs.forEach((t,i)=>t.setAttribute('aria-pressed',String(i===leg)));document.getElementById('kakao-route').href='https://map.kakao.com/?'+new URLSearchParams({sName:l.start,eName:l.end,target:l.mode==='walking'?'walk':'transit'});document.getElementById('naver-route').href=naverLegs[leg];document.getElementById('google-route').href='https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',origin:l.start,destination:l.end,travelmode:l.mode});document.getElementById('route-help').textContent=l.label+' | '+l.instruction;updatePreview();}
+function updatePreview(){const l=legs[leg];document.getElementById('show-location').setAttribute('aria-pressed',String(!previewRoute));document.getElementById('show-route').setAttribute('aria-pressed',String(previewRoute));document.getElementById('live-map').src='https://maps.google.com/maps?'+new URLSearchParams(previewRoute?{saddr:l.start,daddr:l.end,dirflg:l.mode==='walking'?'w':'r',output:'embed',hl:'ko'}:{q:destination,z:'16',output:'embed',hl:'ko'});}
+tabs.forEach((t,i)=>t.addEventListener('click',()=>{leg=i;updateMaps();}));
 document.getElementById('show-location').addEventListener('click',()=>{previewRoute=false;updatePreview();});
 document.getElementById('show-route').addEventListener('click',()=>{previewRoute=true;updatePreview();});
-document.getElementById('walk-select').addEventListener('click',()=>{mapOrigin.value='2';previewRoute=true;updateMaps();mapOrigin.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});});
 updateMaps();
 </script></body></html>

@@ -28,7 +28,7 @@ h2 .no{background:var(--ink);color:#fff;border-radius:50%;width:36px;height:36px
 .hero .tag{display:inline-block;background:var(--yellow);color:#252139;font-weight:900;border-radius:20px;padding:4px 14px;font-size:15px}
 .hero h1{font-size:clamp(30px,6vw,48px);line-height:1.25;letter-spacing:-2px;margin:14px 0 6px}
 .hero p{margin:0;color:#d8d4e6}
-.times{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px}
+.times{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
 .t{background:#342e4d;border-radius:16px;padding:14px 12px;text-align:center}
 .t small{display:block;font-size:14px;color:#cfcae0}
 .t b{display:block;font-size:30px;font-weight:900;letter-spacing:-1px}
@@ -124,7 +124,7 @@ h2 .no{background:var(--ink);color:#fff;border-radius:50%;width:36px;height:36px
 
 @media(max-width:720px){
  body{font-size:16px}.wrap{padding:16px 16px 36px}.hero{padding:22px}
- .times{grid-template-columns:repeat(2,1fr)}.t b{font-size:26px}.t.key b{font-size:34px}
+ .times{grid-template-columns:repeat(3,1fr)}.t{padding:12px 4px}.t small{font-size:12px}.t b{font-size:26px}.t.key b{font-size:34px}
  .route{grid-template-columns:1fr;justify-items:start;gap:0}
  .st{display:flex;align-items:center;gap:12px;width:auto;text-align:left}.st .ic{margin:0;width:50px;height:50px;font-size:24px;flex-shrink:0}
  .seg{width:10px;height:58px;margin:-4px 0 -4px 20px;top:0}
@@ -146,10 +146,9 @@ h2 .no{background:var(--ink);color:#fff;border-radius:50%;width:36px;height:36px
  <div class="times">
   <div class="t"><small>완정역 도착</small><b>12:20</b></div>
   <div class="t key"><small>🚆 열차 탑승</small><b>12:30</b></div>
-  <div class="t"><small>학교 도착 목표</small><b>13:30</b></div>
-  <div class="t end"><small>⏰ 도착 마감</small><b>13:45</b></div>
+  <div class="t end"><small>🏫 학교 도착</small><b>13:50</b></div>
  </div>
- <p class="warn"><b>12:30 열차를 놓치면 13:45 마감에 늦을 수 있어요!</b> 10분 일찍 역에 와서 교통카드와 승강장을 확인해요.</p>
+ <p class="warn"><b>12:30 열차를 놓치면 13:50까지 도착하기 어려워요!</b> 10분 일찍 역에 와서 교통카드와 승강장을 확인해요.</p>
 </header>
 <div class="legend"><span><b class="must">빨간 글씨</b> = 꼭 지켜요</span><span><b class="mark">노란 형광</b> = 꼭 확인해요</span></div>
 
@@ -163,7 +162,7 @@ h2 .no{background:var(--ink);color:#fff;border-radius:50%;width:36px;height:36px
    <div class="seg l1"><span>1호선 일반</span></div>
    <div class="st"><div class="ic">🚪</div><div><strong>부개역</strong><small>내려요</small></div></div>
    <div class="seg wk"><span>걷기 15~20분</span></div>
-   <div class="st goal"><div class="ic">🏫</div><div><strong>부평여중</strong><small class="must">13:45 마감</small></div></div>
+   <div class="st goal"><div class="ic">🏫</div><div><strong>부평여중</strong><small class="must">13:50 도착</small></div></div>
   </div>
   <div class="playrow"><span class="status" id="status" aria-live="polite"></span><div><button class="btn primary" id="play">▶ 따라가 보기</button> <button class="btn" id="reset">처음으로</button></div></div>
  </div>
